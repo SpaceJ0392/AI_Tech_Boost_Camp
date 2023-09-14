@@ -3,8 +3,8 @@
   <component name="Black">
     <option name="enabledOnReformat" value="true" />
     <option name="executionMode" value="BINARY" />
-    <option name="pathToExecutable" value="C:\anaconda3\Scripts\black.exe" />
-    <option name="sdkUUID" value="3f754299-37ea-41a4-b82f-3f4b96af81ec" />
+    <option name="pathToExecutable" value="C:\miniconda3\Scripts\black.exe" />
+    <option name="sdkUUID" value="2aa2dae1-5819-4187-a092-f9064d851b9d" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="C:\miniconda3" project-jdk-type="Python SDK" />
 </project>

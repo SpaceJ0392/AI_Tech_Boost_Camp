@@ -18,3 +18,10 @@ print("np.linalg.inv(X) : ", np.linalg.inv(X))
 
 # X X^-1 = I
 print("X X^-1 = I : ", X @ np.linalg.inv(X))
+
+# 유사 역행렬 (행과 열의 개수가 달라 유사 역행렬로 역행렬 계산)
+Y = np.array([[0, 1], [1, -1], [-2, 1]])
+print("Y+ : ", np.linalg.pinv(Y))  # pinv : 유사 역행렬을 구하는 함수 (pseudo-inverse)
+
+# Y Y^+ = I (유사)
+print("Y Y^+ = I : ", np.linalg.pinv(Y) @ Y)  # Y는 행의 개수가 더 크므로 Y^{+} @ Y 해주어야 한다.
